@@ -1,0 +1,24 @@
+{
+    "name": "greenoshpere",
+    "displayName": "Greenoshpere",
+    "description": "Its a go green theme with the editor having pleasent green color. Great while working with an awesome message.",
+    "version": "0.1.1",
+    "publisher": "ShivKumarGanesh",
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "icon": "icon.png",
+    "categories": [
+        "Themes"
+    ],
+    "license": "MIT",
+    "contributes": {
+        "themes": [
+            {
+                "label": "Greenoshpere",
+                "uiTheme": "vs",
+                "path": "./themes/Greenoshpere-color-theme.json"
+            }
+        ]
+    }
+}
